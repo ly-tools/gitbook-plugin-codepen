@@ -3,6 +3,8 @@ gitbook-plugin-codepen
 
 **Embed Codepen preview into your Gitbook**
 
+[DEMO](http://read.lingyu.wang/)
+
 ##Install
 
 ```shell
