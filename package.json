@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-codepen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A plugin to embed codepen in your Gitbook",
   "main": "index.js",
   "keywords": [
@@ -29,5 +29,7 @@
   "bugs": {
     "url": "https://github.com/LingyuCoder/gitbook-plugin-codepen/issues"
   },
-  "homepage": "https://github.com/LingyuCoder/gitbook-plugin-codepen"
+  "homepage": "https://github.com/LingyuCoder/gitbook-plugin-codepen",
+  "_shasum": "124a99efb53a783bc32f05e09a761be0853e1b55",
+  "_from": "gitbook-plugin-codepen@*"
 }
