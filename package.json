@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-codepen",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A plugin to embed codepen in your Gitbook",
   "main": "index.js",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",

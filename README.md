@@ -1,17 +1,25 @@
-gitbook-plugin-codepen
-======================
+# gitbook-plugin-codepen
+
+[![Build Status](https://travis-ci.org/LingyuCoder/gitbook-plugin-codepen.png)](https://travis-ci.org/LingyuCoder/gitbook-plugin-codepen)
+[![Dependency Status](https://david-dm.org/LingyuCoder/gitbook-plugin-codepen.svg)](https://david-dm.org/LingyuCoder/gitbook-plugin-codepen)
+[![devDependency Status](https://david-dm.org/LingyuCoder/gitbook-plugin-codepen/dev-status.svg)](https://david-dm.org/LingyuCoder/gitbook-plugin-codepen#info=devDependencies)
+[![NPM version](http://img.shields.io/npm/v/gitbook-plugin-codepen.svg?style=flat-square)](http://npmjs.org/package/gitbook-plugin-codepen)
+[![node](https://img.shields.io/badge/node.js-%3E=_0.12-green.svg?style=flat-square)](http://nodejs.org/download/)
+[![License](http://img.shields.io/npm/l/gitbook-plugin-codepen.svg?style=flat-square)](LICENSE)
+[![npm download](https://img.shields.io/npm/dm/gitbook-plugin-codepen.svg?style=flat-square)](https://npmjs.org/package/gitbook-plugin-codepen)
+
 
 **Embed Codepen preview into your Gitbook**
 
 [DEMO](http://read.lingyu.wang/Codepen.html)
 
-##Install
+## Install
 
 ```shell
 $npm install --save gitbook-plugin-codepen
 ```
 
-##Usage
+## Usage
 
 Add the plugin to your `book.json` like this:
 
@@ -27,7 +35,7 @@ then in your markdown file, you can embed codepen panel like this:
 [](codepen://Lingyucoder/AsFJh?height=800&theme=0)
 ```
 
-##Options
+## Options
 
 You can set the options of your Gitbook in `book.json` like this:
 
@@ -44,19 +52,19 @@ You can set the options of your Gitbook in `book.json` like this:
 
 You can also set options of a specific Codepen panel use URL querystring like `?height=400&theme=14038&description=somepen&defaultTab=html`
 
-###height
+### height
 
 default: `300`
 
-###theme
+### theme
 
 default: `0`
 
-###description
+### description
 
 default: `''`
 
-###defaultTab
+### defaultTab
 
 default: `'result'`
 
